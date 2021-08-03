@@ -9,20 +9,17 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-    <title>Pixie - Ecommerce HTML5 Template</title>
+    <title>Kunandzika</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
+    <!-- Adicional CSS  -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/tooplate-main.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-<!--
-Tooplate 2114 Pixie
-https://www.tooplate.com/view/2114-pixie
--->
+
   </head>
 
   <body>
@@ -32,7 +29,7 @@ https://www.tooplate.com/view/2114-pixie
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <span>Suspendisse laoreet magna vel diam lobortis imperdiet</span>
+            <span>Está na hora de encomendar Papito!</span>
           </div>
         </div>
       </div>
@@ -42,43 +39,44 @@ https://www.tooplate.com/view/2114-pixie
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
+              <a class="nav-link" href="index.php">Inicio
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="products.html">Products</a>
+              <a class="nav-link" href="produto.php">Encomendas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="sobre.php">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="contacto.php">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <!-- Banner Starts Here -->
+    <!-- Conteudi-->
+    <!-- Banner Inicio -->
     <div class="banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="caption">
-              <h2>Ecommerce HTML Template</h2>
+              <h2>Kunandzica</h2>
               <div class="line-dec"></div>
-              <p>Pixie HTML Template can be converted into your desired CMS theme. Total <strong>5 pages</strong> included. You can use this Bootstrap v4.1.3 layout for any CMS. 
-              <br><br>Please tell your friends about <a rel="nofollow" href="https://www.facebook.com/tooplate/">Tooplate</a> free template site. Thank you. Photo credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels website</a>.</p>
+              <p>Encomenda onde quiseres e quando quiseres.
+                            <br><br>Baixe a nossa  aplicação disponivel em<a rel="nofollow" href="https://www.facebook.com/kunandzica/"></a> <a rel="nofollow" href="https://www.kunandzica.com">Kunandzica website</a>.</p>
               <div class="main-button">
-                <a href="#">Order Now!</a>
+                <a href="#">Encomendar Agora!</a>
               </div>
             </div>
           </div>
@@ -177,26 +175,28 @@ https://www.tooplate.com/view/2114-pixie
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>Subscribe on PIXIE now!</h1>
+              <h1>Subscrever no Kunandzica agora!</h1>
             </div>
           </div>
           <div class="col-md-8 offset-md-2">
             <div class="main-content">
-              <p>Integer vel turpis ultricies, lacinia ligula id, lobortis augue. Vivamus porttitor dui id dictum efficitur. Phasellus vel interdum elit.</p>
+              <p>Mantenha-se a par das nossas últimas novidades.
+                Registe-se para receber a nossa newsletter oficial. Com cada email, 
+                receberá as mais recentes actualizações, cardapios novos  do Kunandzica.</p>
               <div class="container">
                 <form id="subscribe" action="" method="get">
                   <div class="row">
                     <div class="col-md-7">
                       <fieldset>
                         <input name="email" type="text" class="form-control" id="email" 
-                        onfocus="if(this.value == 'Your Email...') { this.value = ''; }" 
-                    	onBlur="if(this.value == '') { this.value = 'Your Email...';}"
-                    	value="Your Email..." required="">
+                        onfocus="if(this.value == 'seu Email...') { this.value = ''; }" 
+                    	onBlur="if(this.value == '') { this.value = 'Seu Email...';}"
+                    	value="Seu Email..." required="">
                       </fieldset>
                     </div>
                     <div class="col-md-5">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">Subscribe Now!</button>
+                        <button type="submit" id="form-submit" class="button">Subscrever Agora!</button>
                       </fieldset>
                     </div>
                   </div>
@@ -224,10 +224,10 @@ https://www.tooplate.com/view/2114-pixie
             <div class="footer-menu">
               <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">How It Works ?</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Politica de Privacidade</a></li>
+                <li><a href="#">Como funciona ?</a></li>
+                <li><a href="#">Contacto </a></li>
               </ul>
             </div>
           </div>
@@ -247,15 +247,15 @@ https://www.tooplate.com/view/2114-pixie
     <!-- Footer Ends Here -->
 
 
-    <!-- Sub Footer Starts Here -->
+    <!-- Sub Footer  -->
     <div class="sub-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="copyright-text">
-              <p>Copyright &copy; 2019 Company Name 
+              <p>Copyright &copy; 2021 Kunandzica 
                 
-                - Design: <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                - Design: <a rel="nofollow" href="#">Kunandzica</a></p>
             </div>
           </div>
         </div>
