@@ -64,7 +64,7 @@
       </div>
     </nav>
 
-    <!-- Conteudi-->
+    <!-- Conteudo-->
     <!-- Banner Inicio -->
     <div class="banner">
       <div class="container">
@@ -92,19 +92,19 @@
           <div class="col-md-12">
             <div class="section-heading">
               <div class="line-dec"></div>
-              <h1>Featured Items</h1>
+              <h1>Nossos Pratos</h1>
             </div>
           </div>
           <div class="col-md-12">
             <div class="owl-carousel owl-theme">
-              <a href="single-product.html">
+              <a href="cadaproduto.php">
                 <div class="featured-item">
                   <img src="assets/images/item-01.jpg" alt="Item 1">
                   <h4>Proin vel ligula</h4>
                   <h6>$15.00</h6>
                 </div>
               </a>
-              <a href="single-product.html">
+              <a href="cadaproduto.php">
                 <div class="featured-item">
                   <img src="assets/images/item-02.jpg" alt="Item 2">
                   <h4>Erat odio rhoncus</h4>
@@ -226,7 +226,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Ajuda</a></li>
                 <li><a href="#">Politica de Privacidade</a></li>
-                <li><a href="#">Como funciona ?</a></li>
+                <li><a href="#">Como Encomendar?</a></li>
                 <li><a href="#">Contacto </a></li>
               </ul>
             </div>
@@ -275,11 +275,11 @@
 
 
     <script language = "text/Javascript"> 
-      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t){                   //declaring the array outside of the
-      if(! cleared[t.id]){                      // function makes it static and global
-          cleared[t.id] = 1;  // you could use true and false, but that's more typing
-          t.value='';         // with more chance of typos
+      cleared[0] = cleared[1] = cleared[2] = 0;
+      function clearField(t){                   
+      if(! cleared[t.id]){                      
+          cleared[t.id] = 1;  
+          t.value='';         
           t.style.color='#fff';
           }
       }
